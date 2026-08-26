@@ -15,4 +15,16 @@ isFavorite:"false" ,
   console.log(movie.voteAverage);
   console.log(movie.isFavorite);
 
+  // 02. 평점에 따라 영화 분류하기
 
+
+    // if (movie.voteAverage>=8) {
+    //   console.log("추천 영화");
+    //  } else {console.log("일반 영화")};
+
+    // 03. 여러 조건을 함께 사용하기
+    
+    if(movie.voteAverage>=8 && movie.voteCount>30000){
+      console.log("인기 추천 영화");
+    }
+    else {console.log("일반 영화");}
