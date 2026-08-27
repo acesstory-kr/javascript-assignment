@@ -124,3 +124,43 @@ console.log(`개봉일: ${releaseDate}`);
 // 인터스텔라는 2014-11-05에 개봉한 영화이며, 현재 평점은 8.7점이고 32000명이 평가했습니다.
 console.log(`${title}는 ${releaseDate}에 개봉한 영화이며, 현재 평점은 ${voteAverage}점이고 ${voteCount}명이 평가했습니다.`)
 
+// const showMovie = function(title) {
+//     return title;
+// };
+
+// showMovie("인셉션");
+
+// function showMessage(){
+//     console.log("주문이 완료되었습니다!");
+// }
+
+// function orderCoffee(menu, callback){
+//     console.log(`${menu} 주문을 접수 합니다.`)
+
+//     callback();
+// };
+
+
+// orderCoffee("아메리카노", showMessage);
+
+// // showMessage();
+
+// function calculateTicketPrice(price, count) {
+//     return price * count;
+//    }
+//    const totalPrice = calculateTicketPrice(12000, 3);
+//    console.log(`총 예매 금액: ${totalPrice}원`);
+
+
+
+
+// function receiveTicketPrice(price, count){
+//     return price*count;
+// }
+
+// const totalPPrice= receiveTicketPrice(10000, 3);
+// console.log(`총 금액: ${totalPPrice}`);
+
+// console.log(document);
+
+// const title= document.querySelector(".title");
