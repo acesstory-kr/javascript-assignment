@@ -14,23 +14,6 @@ getNowPlaying();
 
 // 03. fetch()로 서버에 Request 보내기
 
-// const result = fetch(
-//   "https://api.themoviedb.org/3/movie/now_playing?language=ko-KR",
-//   options,
-// );
-
-// console.log(result); // Promise { <pending> }
-
-// async function getResponse() {
-//    const response = await fetch(
-//     "https://api.themoviedb.org/3/movie/now_playing?language=ko-KR",
-//     options,
-//    );
-   
-//    console.log(response);
-// }
-// getResponse();
-
 const result= fetch(URL, options,);
 console.log(result);
 
